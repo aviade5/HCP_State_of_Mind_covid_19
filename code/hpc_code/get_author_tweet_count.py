@@ -18,7 +18,9 @@ mpl.rcParams['font.size'] = 14
 
 plt.subplots(figsize=(10, 6))
 #plt.title('Logarithm of author count per number of posts')
-plt.xlabel('log(#posts)')
-plt.ylabel('log(#HCPs)')
-plt.scatter([math.log(num_tweets) for (num_tweets, _) in count_count_dict.items()], [math.log(count) for (_, count) in count_count_dict.items()])
+plt.xlabel('#posts')
+plt.ylabel('#HCPs')
+plt.yscale("log")
+plt.xscale("log")
+plt.scatter([num_tweets for (num_tweets, _) in count_count_dict.items()], [count for (_, count) in count_count_dict.items()])
 plt.savefig('log_author_count_per_log_number_of_posts.png')
