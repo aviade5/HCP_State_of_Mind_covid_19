@@ -9,12 +9,13 @@
 
 
 *Bibtex*:
+```
 @article{elyashar2021state,
   title={The State of Mind of Healthcare Professionals in the Light of the COVID-19: Insights from Text Analysis of Twitter's Online Discourses.},
   author={Elyashar, Aviad and Plochotnikov, Ilia and Cohen, Idan-Chaim and Puzis, Rami and Cohen, Odeya},
   journal={Journal of Medical Internet Research},
   year={2021}
 }
-
+```
 Link:
 PMID: 34550899 DOI: 10.2196/30217
