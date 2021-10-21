@@ -17,5 +17,5 @@
   year={2021}
 }
 ```
-Link:
 PMID: 34550899 DOI: 10.2196/30217
+Link: [10.2196/30217](https://preprints.jmir.org/preprint/30217/accepted)
